@@ -1,0 +1,30 @@
+body {
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: inherit;
+  color: inherit;
+  background-color: #fff;
+  margin-top: 70px;
+  padding-top: 0;
+  counter-reset: captions;
+
+  color: #212529;
+  text-align: left;
+}
+
+a {
+  background-color: transparent;
+}
+
+a, h3.article-title a:hover {
+    color: #3f51b5;
+    transition: color .6s ease;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, section {
+    display: block;
+}
+
+button, input {
+    overflow: visible;
+}
