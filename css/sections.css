@@ -19,3 +19,22 @@
     margin-right: -15px;
     margin-left: -15px;
 }
+
+.col {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+  }
+}

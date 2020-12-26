@@ -29,6 +29,25 @@ button, input {
     overflow: visible;
 }
 
+img, video {
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.portrait {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 /* Container */
 .container {
     width: 100%;
