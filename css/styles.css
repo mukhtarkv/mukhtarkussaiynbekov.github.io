@@ -28,3 +28,11 @@ article, aside, figcaption, figure, footer, header, hgroup, main, section {
 button, input {
     overflow: visible;
 }
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
