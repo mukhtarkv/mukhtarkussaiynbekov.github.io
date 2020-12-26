@@ -1,0 +1,21 @@
+.home-section {
+    background-color: #fff;
+    padding: 110px 0;
+    animation: intro .3s both;
+    animation-delay: .15s;
+}
+
+.home-section {
+    padding: 30px 0;
+}
+
+.home-section:first-of-type {
+    padding-top: 50px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
