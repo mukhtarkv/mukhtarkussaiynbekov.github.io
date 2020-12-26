@@ -2,7 +2,7 @@
 .navbar-light {
   background: #3f51b5!important;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11);
-  font-family: 'Roboto,sans-serif';
+  font-family: 'Roboto',sans-serif;
   font-weight: 400;
   line-height: 1.25;
   text-rendering: optimizeLegibility;

@@ -12,6 +12,11 @@ body {
   text-align: left;
 }
 
+p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
 a {
   background-color: transparent;
 }
@@ -46,7 +51,7 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat,sans-serif';
+    font-family: 'Montserrat',sans-serif;
     font-weight: 400;
     margin-top: 1rem;
     margin-bottom: .5rem;
