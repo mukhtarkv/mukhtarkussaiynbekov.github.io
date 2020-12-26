@@ -16,8 +16,13 @@ a {
   background-color: transparent;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 a, h3.article-title a:hover {
     color: #3f51b5;
+    text-decoration: none;
     transition: color .6s ease;
 }
 
@@ -40,12 +45,20 @@ img {
     border-style: none;
 }
 
-.portrait {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    border-radius: 50%;
-    object-fit: cover;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat,sans-serif';
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    line-height: 1.25;
+    color: #313131;
+    text-rendering: optimizeLegibility;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
 }
 
 /* Container */

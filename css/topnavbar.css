@@ -24,7 +24,7 @@
   color: #fff;
 }
 
-.navbar-brand {
+.navbar-light .navbar-brand {
   display: inline-block;
   line-height: inherit;
 }
@@ -34,11 +34,12 @@
   background-color: transparent;
 }
 
-.navbar-brand, .navbar-nav li.nav-item a.nav-link {
+.navbar-light .navbar-brand, .navbar-nav li.nav-item a.nav-link {
   height: inherit;
   line-height: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
+  text-decoration: none;
 }
 
 /* Active Navigation Link */
@@ -81,7 +82,7 @@
 /* Media Queries */
 @media screen and (max-width: 1200px) {
 
-  .navbar-brand, .navbar-nav li.nav-item a.nav-link {
+  .navbar-light .navbar-brand, .navbar-nav li.nav-item a.nav-link {
     height: inherit;
     line-height: 40px;
     padding-top: 5px;
