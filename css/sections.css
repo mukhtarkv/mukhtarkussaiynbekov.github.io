@@ -127,3 +127,13 @@ ul.network-icon {
     max-width: 66.66666667%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .home-section:first-of-type {
+    padding-top: 40px;
+  }
+
+  .home-section {
+    padding: 60px 0;
+}
+}
