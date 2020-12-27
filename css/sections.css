@@ -99,6 +99,23 @@ ul.network-icon {
   margin-right: 0;
 }
 
+#contact li {
+    padding-top: .8rem;
+    margin-bottom: .3rem;
+}
+
+#contact .fa-ul {
+  margin-left: 3.14285714rem;
+}
+
+#contact .fa-li {
+    position: absolute;
+    left: -3.14285714rem;
+    width: 2rem;
+    top: .14285714em;
+    text-align: center;
+}
+
 @media (min-width: 992px) {
   .col-lg-4 {
     flex: 0 0 33.33333333%;
