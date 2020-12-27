@@ -99,7 +99,7 @@ ul.network-icon {
   margin-right: 0;
 }
 
-#contact li {
+.contact-li {
     padding-top: .8rem;
     margin-bottom: .3rem;
 }
