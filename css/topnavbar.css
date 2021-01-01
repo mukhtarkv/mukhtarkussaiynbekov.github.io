@@ -14,7 +14,6 @@
 
 .navbar {
   padding: .5rem 1rem;
-  min-height: 70px;
 }
 
 /* Navigation Brand */
@@ -126,6 +125,10 @@
 
   .navbar-expand-lg .navbar-collapse {
     flex-basis: auto;
+  }
+
+  .navbar-light {
+    max-height: 70px;
   }
 
   .navbar-expand-lg {
