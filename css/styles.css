@@ -1,27 +1,21 @@
+html {
+    font-family: Roboto,sans-serif;
+    font-size: 13px;
+    color: rgba(0,0,0,.8);
+    line-height: 1.65;
+}
+
 body {
   font-family: inherit;
   font-size: 1rem;
   line-height: inherit;
   color: inherit;
   background-color: #fff;
-  padding-top: 70px;
+  margin-top: 70px;
   counter-reset: captions;
 
   color: #212529;
   text-align: left;
-}
-
-/* p {
-  font-size: 1.2rem;
-  line-height: 2rem;
-} */
-
-span.anchor {
-    margin-top: -70px; /* height of nav, in this case 70px */
-    display: block;
-    height: 70px; /* height of nav, in this case 70px */
-    visibility: hidden;
-    position: relative;
 }
 
 a {
@@ -90,5 +84,17 @@ li {
 @media (min-width: 1200px) {
   .container {
     max-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+      margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 58em) {
+  html {
+      font-size: 16px;
   }
 }

@@ -104,11 +104,11 @@ ul.network-icon {
     margin-bottom: .3rem;
 }
 
-#contact .fa-ul {
+.contact-section .fa-ul {
   margin-left: 3.14285714rem;
 }
 
-#contact .fa-li {
+.contact-section .fa-li {
     position: absolute;
     left: -3.14285714rem;
     width: 2rem;

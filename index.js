@@ -1,3 +1,1 @@
-$('#navbar a').on('click', function() {
-    $('#navbar').collapse('hide');
-});
+$('#navbar a').on('click', () => $('#navbar').collapse('hide'));

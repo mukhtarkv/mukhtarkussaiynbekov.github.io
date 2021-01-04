@@ -1,3 +1,11 @@
+span.anchor {
+    margin-top: -70px; /* height of nav, in this case 70px */
+    display: block;
+    height: 70px; /* height of nav, in this case 70px */
+    visibility: hidden;
+    position: relative;
+}
+
 /* Navigation Bar */
 .navbar-light {
   background: #3f51b5!important;
@@ -23,17 +31,16 @@
   color: #fff;
 }
 
-.navbar-light .navbar-brand {
-  display: inline-block;
-  line-height: inherit;
-}
-
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
   color: #fff;
   background-color: transparent;
 }
 
-.navbar-light .navbar-brand, .navbar-nav li.nav-item a.nav-link {
+.navbar-brand {
+  display: inline-block;
+}
+
+.navbar-brand, .navbar-nav li.nav-item a.nav-link {
   height: inherit;
   line-height: 50px;
   padding-top: 10px;
@@ -81,7 +88,7 @@
 /* Media Queries */
 @media screen and (max-width: 1200px) {
 
-  .navbar-light .navbar-brand, .navbar-nav li.nav-item a.nav-link {
+  .navbar-brand, .navbar-nav li.nav-item a.nav-link {
     height: inherit;
     line-height: 40px;
     padding-top: 5px;
@@ -134,5 +141,15 @@
   .navbar-expand-lg {
       flex-flow: row nowrap;
       justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-section {
+    padding: 60px 0;
+  }
+
+  .home-section:first-of-type {
+    padding-top: 40px;
   }
 }
